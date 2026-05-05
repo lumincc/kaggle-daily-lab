@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+         <loc>https://lumincc.github.io/kaggle-daily-lab/</loc>
+         <lastmod>2026-05-05</lastmod>
+    </url>
+    <url>
+         <loc>https://lumincc.github.io/kaggle-daily-lab/experiments/titanic/v1/</loc>
+         <lastmod>2026-05-05</lastmod>
+    </url>
+    <url>
+         <loc>https://lumincc.github.io/kaggle-daily-lab/experiments/titanic/v2/</loc>
+         <lastmod>2026-05-05</lastmod>
+    </url>
+    <url>
+         <loc>https://lumincc.github.io/kaggle-daily-lab/experiments/titanic/v3/</loc>
+         <lastmod>2026-05-05</lastmod>
+    </url>
+    <url>
+         <loc>https://lumincc.github.io/kaggle-daily-lab/experiments/titanic/v4/</loc>
+         <lastmod>2026-05-05</lastmod>
+    </url>
+    <url>
+         <loc>https://lumincc.github.io/kaggle-daily-lab/projects/digit-recognizer/</loc>
+         <lastmod>2026-05-05</lastmod>
+    </url>
+    <url>
+         <loc>https://lumincc.github.io/kaggle-daily-lab/projects/house-prices/</loc>
+         <lastmod>2026-05-05</lastmod>
+    </url>
+    <url>
+         <loc>https://lumincc.github.io/kaggle-daily-lab/projects/titanic/</loc>
+         <lastmod>2026-05-05</lastmod>
+    </url>
+</urlset>
