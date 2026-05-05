@@ -4,10 +4,10 @@
 
 | Version | Core Strategy | LB Score | Key Lesson |
 |---------|---------------|----------|------------|
-| [v1](v1.md) | 4-feature Baseline + RF | ~0.77 | Sex is the strongest signal |
-| [v2](v2.md) | Simplified strategy (8 features + single model) | 0.77990 | Small dataset: less is more |
-| [v3](v3.md) | HasCabin + Title split + relaxed RF | 0.78947 | Cabin missing is a non-random signal |
-| [v4](v4.md) | Candidate breakthrough (GBDT / Hard Voting) | Target 0.80+ | Single model bottleneck, need ensemble |
+| [v1](../experiments/titanic/v1.md) | 4-feature Baseline + RF | ~0.77 | Sex is the strongest signal |
+| [v2](../experiments/titanic/v2.md) | Simplified strategy (8 features + single model) | 0.77990 | Small dataset: less is more |
+| [v3](../experiments/titanic/v3.md) | HasCabin + Title split + relaxed RF | 0.78947 | Cabin missing is a non-random signal |
+| [v4](../experiments/titanic/v4.md) | Candidate breakthrough (GBDT / Hard Voting) | Target 0.80+ | Single model bottleneck, need ensemble |
 
 - **Competition**: [Titanic - Machine Learning from Disaster](https://www.kaggle.com/competitions/titanic)
 - **Kaggle Notebook**: [lumincode/titanic-lumincode](https://www.kaggle.com/code/lumincode/titanic-lumincode/edit)
@@ -17,7 +17,7 @@
 
 ## v1: Building the Baseline
 
-[v1 detailed log](v1.md)
+[v1 detailed log](../experiments/titanic/v1.md)
 
 **Method**: Official starter tutorial, 4 raw features + RandomForest.
 
@@ -32,7 +32,7 @@
 
 ## v2: Overfitting Diagnosis and "Less is More"
 
-[v2 detailed log](v2.md)
+[v2 detailed log](../experiments/titanic/v2.md)
 
 **Background**: After v1, an "advanced version" was attempted (not preserved as a standalone version) — 14 features + 5-model comparison + 4-model Soft Voting. Result: **CV 0.83 → LB 0.75**, an 8% gap.
 
@@ -55,7 +55,7 @@
 
 ## v3: Signal Mining — Cabin and Title
 
-[v3 detailed log](v3.md)
+[v3 detailed log](../experiments/titanic/v3.md)
 
 **Problem**: v2 stalled at 0.78, unseen patterns remain in test.
 
@@ -77,7 +77,7 @@
 
 ## v4: Candidate Breakthrough Plan for 0.80+
 
-[v4 detailed log](v4.md)
+[v4 detailed log](../experiments/titanic/v4.md)
 
 **Current gap**: ~0.01 (about 4–5 samples in test)
 

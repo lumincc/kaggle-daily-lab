@@ -41,9 +41,9 @@ nav:
   - Projects:
       - Titanic:
           - Overview: projects/titanic.md
-          - v1: titanic/v1.md
-          - v2: titanic/v2.md
-          - v3: titanic/v3.md
-          - v4: titanic/v4.md
+          - v1: experiments/titanic/v1.md
+          - v2: experiments/titanic/v2.md
+          - v3: experiments/titanic/v3.md
+          - v4: experiments/titanic/v4.md
       - House Prices: projects/house-prices.md
       - Digit Recognizer: projects/digit-recognizer.md
